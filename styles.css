@@ -7,8 +7,11 @@ p {
   padding: 0;
 }
 
+/* HEADER WEBSITE STUFF */
+
 img {
-  width: 10%;
+
+  width: 100px
 }
 
 .body, .header {
@@ -23,7 +26,7 @@ img {
 
 .header {
   gap: 10px;
-  padding: 0 60px;
+  padding: 0 80px;
   padding-bottom: 40px;
 }
 
@@ -66,7 +69,7 @@ ul, .secondary-text {
   color: #F9FAF8;
 }
 
-.img {
+.header-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,11 +91,54 @@ ul, .secondary-text {
 }
 
 .button-top {
-  width: 90px;
-  height: 25px;
+  width: 120px;
+  height: 30px;
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: bold;
   border-radius: 6px;
   border-color: #3882F6;
+  border: none;
+}
+
+/* MAIN BODY & CONTENT WEBSITE STUFF */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* DELETE GAP BELOW ONCE DONE FORMATTING */
+  /* gap: 80px; */
+}
+
+.content-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  /* border: 2px solid black; */
+}
+
+.content-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E5E7EB;
+  /* border: 2px solid black; */
+  padding: 60px;
 }
