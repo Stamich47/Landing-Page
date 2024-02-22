@@ -1,0 +1,25 @@
+img {
+  width: 10%;
+}
+
+.body, .header {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.bottom {
+  display: flex;
+}
+
