@@ -179,3 +179,52 @@ ul, .secondary-text {
   font-size: 22px;
 }
 
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  /* border: 2px solid black; */
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  background-color: #3882F6;
+  padding: 40px;
+  border-radius: 8px;
+  width: 800px;
+}
+
+.button-header {
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.button-subtext {
+  color: #F9FAF8;
+}
+
+.button-btm {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  width: 160px;
+  border-radius: 4px;
+  border: 2px solid #F9FAF8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
