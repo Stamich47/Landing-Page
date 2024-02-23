@@ -1,5 +1,5 @@
 body {
-  font-family: roboto, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 p {
@@ -9,9 +9,9 @@ p {
 
 /* HEADER WEBSITE STUFF */
 
-img {
+.img > img {
 
-  width: 100px
+  width: 150px;
 }
 
 .body, .header {
@@ -114,16 +114,25 @@ ul, .secondary-text {
 .content-top {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
   gap: 20px;
-  padding-bottom: 60px;
-  padding-top: 40px;
   /* border: 2px solid black; */
+}
+
+.content-header {
+  display: flex;
+  align-items: start;
+  height: 50px;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 .content-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .img {
@@ -132,6 +141,17 @@ ul, .secondary-text {
   align-items: center;
   text-align: center;
   gap: 10px;
+  /* border: 2px solid black; */
+  min-width: 200px;
+}
+
+.subtext {
+  display: flex;
+  padding: 0 40px 0 40px;
+  /* border: 2px solid black; */
+  flex: 1;
+  flex-wrap: wrap;
+  
 }
 
 .quote {
@@ -140,5 +160,22 @@ ul, .secondary-text {
   justify-content: center;
   background-color: #E5E7EB;
   /* border: 2px solid black; */
-  padding: 60px;
+  padding: 100px;
+  flex: 1;
+  color: #1f2937;
+  gap: 10px;
 }
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.signature {
+  display: flex;
+  font-weight: bold;
+  justify-content: flex-end;
+  font-size: 22px;
+}
+
