@@ -17,8 +17,8 @@ a:hover {
 }
 
 .img > img {
-  width: 250px;
-  height: 150px;
+  min-width: 0;
+  max-width: 75%;
   border-radius: 10px;
   /* border: 2px solid black; */
   margin: 10px;
@@ -118,9 +118,10 @@ ul, .secondary-text {
 .content-top {
   display: flex;
   flex-direction: column;
-  padding: 30px 120px 80px 120px;
+  /* padding: 30px 120px 80px 120px; */
   gap: 20px;
   /* border: 2px solid black; */
+  flex: 1;
 }
 
 .content-header {
@@ -131,11 +132,15 @@ ul, .secondary-text {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  margin-top: 40px;
+  /* border: 2px solid black; */
 }
 
 .content-images {
   display: flex;
   justify-content: center;
+  flex-shrink: 1;
+  /* border: 2px solid black; */
 }
 
 .img {
@@ -143,15 +148,16 @@ ul, .secondary-text {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 10px;
-  /* min-width: 200px; */
+  flex-wrap: nowrap;
+  flex: 1;
+  gap: 5px;
+  /* border: 2px solid black; */
+  margin-bottom: 60px;
+  /* max-width: 300px; */
 }
 
 .subtext {
-  display: flex;
   padding: 0 40px 0 40px;
-  flex: 1;
-  flex-wrap: wrap;
   color: #1f2937;
   
 }
