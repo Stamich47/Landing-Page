@@ -31,7 +31,7 @@ a:hover {
 }
 
 .header, .footer {
-  background-color: #1f2937;
+  background-color: hsl(215, 28%, 17%);
 }
 
 .header {
@@ -46,7 +46,6 @@ a:hover {
   align-items: center;
   flex: 1;
   padding-top: 20px;
-  /* border: 2px solid white; */
 }
 
 .hero-text {
@@ -64,7 +63,6 @@ ul {
 ul, .secondary-text {
   color: #E5E7EB;
   font-size: 18px;
-  /* border: 2px solid white; */
 }
 
 .bottom {
@@ -72,7 +70,6 @@ ul, .secondary-text {
   align-items: center;
   justify-content: center;
   gap: 60px;
-  /* border: 2px solid white; */
 }
 
 .header-logo {
@@ -85,7 +82,6 @@ ul, .secondary-text {
   width: 400px;
   border-radius: 8px;
   flex: 0;
-  /* border: 2px solid black; */
 }
 
 .header-text {
@@ -148,14 +144,12 @@ ul, .secondary-text {
   align-items: center;
   text-align: center;
   gap: 10px;
-  /* border: 2px solid black; */
   /* min-width: 200px; */
 }
 
 .subtext {
   display: flex;
   padding: 0 40px 0 40px;
-  /* border: 2px solid black; */
   flex: 1;
   flex-wrap: wrap;
   color: #1f2937;
@@ -167,7 +161,6 @@ ul, .secondary-text {
   flex-direction: column;
   justify-content: center;
   background-color: #E5E7EB;
-  /* border: 2px solid black; */
   padding: 100px 180px;
   flex: 1;
   color: #1f2937;
@@ -192,7 +185,6 @@ ul, .secondary-text {
   justify-content: center;
   align-items: center;
   padding: 100px;
-  /* border: 2px solid black; */
 }
 
 .box {
